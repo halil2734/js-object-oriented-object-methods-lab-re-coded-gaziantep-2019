@@ -22,7 +22,7 @@ function BoardMember(name, homeState, training) {
   }
   
   this.sayHi = function(){
-    return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
+    return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
   }
   }
 
