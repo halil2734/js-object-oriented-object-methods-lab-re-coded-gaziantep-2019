@@ -20,7 +20,7 @@ function BoardMember(name, homeState, training) {
     return "You will see great things from Scuber"
   }
   this. sayHi = function(){
-    return ""
+    return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
   }
   }
 
